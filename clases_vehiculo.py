@@ -9,3 +9,7 @@ class Vehiculos:
 class Moto(Vehiculos):
     def __init__(self, marca, modelo, color, patente, puertas):
         super().__init__(marca, modelo, color, patente, puertas)
+
+class auto(Vehiculos):
+    def __init__(self, marca, modelo, color, patente, puertas):
+        super().__init__(marca, modelo, color, patente, puertas)
